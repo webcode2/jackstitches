@@ -1,17 +1,8 @@
 import './App.css';
+import Example from "./components/starter";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-           <code>Jack's Stitches Under Construction</code> 
-        </p>
-      
-      </header>
-    </div>
-  );
+  return <Example/>;
 }
 
 export default App;
