@@ -1,10 +1,12 @@
 import React from 'react'
 import { company_profile } from "../company_profile"
+import fash1 from "../assets/images/fash1.png"
+import "./slides.css"
 
 const Slide1 = () => {
   return (
     
-    <div className="relative isolate w-full h-[90vh] px-8 px-lg:10 ">
+    <div className="relative isolate w-full slide1 h-[90vh] px-8 px-lg:10 " style={{backgroundImage:`url(${ fash1})`}}>
         {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
         </video> */}
@@ -21,6 +23,7 @@ const Slide1 = () => {
       />
     </div>
     <div className="mx-auto max-w-2xl   py-[20vh] lg:py-32 sm:py-48 ">
+
      
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
