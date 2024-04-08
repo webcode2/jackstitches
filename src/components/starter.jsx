@@ -25,7 +25,7 @@ export default function Example() {
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               /> */}
-              <p className="">Jack Stitches</p>
+              <p className=" font-lobster">{company_profile.name}</p>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -62,7 +62,7 @@ export default function Example() {
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                   alt=""
                 /> */}
-                            <p className="">Jack Stitches</p>
+                            <p className="font-lobster">{company_profile.name}</p>
               </a>
 
               <button
@@ -126,10 +126,10 @@ export default function Example() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Jack Stitches: Coming Soon to Abuja!
+            {company_profile.name}: Coming Soon to Abuja!
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            We're thrilled to announce that Jack Stitches, Abuja's premier destination for bespoke tailoring and fashion, is undergoing a website renovation!
+            We're thrilled to announce that {company_profile.name}, Abuja's premier destination for bespoke tailoring and fashion, is undergoing a website renovation!
             </p>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
