@@ -1,21 +1,20 @@
 import React from 'react'
 import { company_profile } from "../company_profile"
-import { Dialog } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import { Dialog, } from "@headlessui/react"
+import { Bars3Icon, XMarkIcon ,PhoneArrowUpRightIcon} from "@heroicons/react/24/outline"
 
 const navigation = [
     { name: 'Gallary', href: '#' },
     { name: 'Fibrics', href: '#' },
     { name: 'Contact', href: '#' },
-    { name: 'Team', href: '#' },
   ]
   
 
 
 function Header({mobileMenuOpen,setMobileMenuOpen}) {
   return (
-    <header className=" top-0 z-50 bg-white opacity-80 sticky ">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header className=" top-0 z-50 bg-white bg-opacity-60  sticky ">
+        <nav className="flex items-center justify-between px-6 py-3 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">{company_profile.name}</span>
@@ -45,7 +44,13 @@ function Header({mobileMenuOpen,setMobileMenuOpen}) {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          Locate Us Today
+            <div className="flex  flex-col space-y-1">
+
+         <p  className="font-ligt font-thin">   No: 67 Ameria Str. off phase 2 Abuja.</p>
+         <p className="font-thin flex gab-x-4 items-center leading-8 font-poppins">                 <PhoneArrowUpRightIcon className="h-6 w-6" aria-hidden="true" />
+  +234 912377844</p>
+
+            </div>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
