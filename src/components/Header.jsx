@@ -6,6 +6,8 @@ import { Bars3Icon, XMarkIcon ,PhoneArrowUpRightIcon} from "@heroicons/react/24/
 const navigation = [
     { name: 'Gallary', href: '#' },
     { name: 'Fibrics', href: '#' },
+    { name: 'Style Guide', href: '#' },
+
     { name: 'Contact', href: '#' },
   ]
   
@@ -14,7 +16,7 @@ const navigation = [
 function Header({mobileMenuOpen,setMobileMenuOpen}) {
   return (
     <header className=" top-0 z-50 bg-white bg-opacity-60  sticky ">
-        <nav className="flex items-center justify-between px-6 py-3 lg:px-8" aria-label="Global">
+        <nav className="flex items-center justify-between px-6 py-2 lg:px-14" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">{company_profile.name}</span>
@@ -23,7 +25,7 @@ function Header({mobileMenuOpen,setMobileMenuOpen}) {
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               /> */}
-              <p className=" font-lobster">{company_profile.name}</p>
+              <p className=" font-lobster text-2xl">{company_profile.name}</p>
             </a>
           </div>
           <div className="flex lg:hidden">

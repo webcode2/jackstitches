@@ -8,8 +8,7 @@ const fash1 = "../assets/images/fash1.png";
 const Slide1 = () => {
   return (
     <div
-      className="relative isolate w-full bg-[image:var(--../assets/images/fash1.png)] slide1 xl:h-[90vh] px-8 px-lg:10 "
-      style={{ ackgroundImage: `url(${fash1})` }}
+      className="relative isolate w-full slide1 xl:h-[90vh] px-8 px-lg:10 "
     >
       {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
@@ -26,7 +25,7 @@ const Slide1 = () => {
           }}
         />
       </div>
-      <div className="mx-auto max-w-2xl   py-[20vh] lg:py-32 sm:py-48 ">
+      <div className="mx-auto max-w-2xl   py-[10vh] lg:py-32 sm:py-48 ">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             {company_profile.name}: Coming Soon !
@@ -75,9 +74,7 @@ export default Slide1;
 export function Slide2() {
   return (
     <div className="relative bg-slate-50 isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
-      {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
-        <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
-    </video> */}
+    
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -90,7 +87,7 @@ export function Slide2() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-2xl   py-[20vh] lg:py-32 sm:py-48">
+      <div className="mx-auto max-w-2xl   py-[10vh] lg:py-32 sm:py-48">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Get Stitched Up in Style.

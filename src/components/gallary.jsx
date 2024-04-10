@@ -1,9 +1,16 @@
 import React from "react";
 import { Gallery } from "react-grid-gallery";
-import pic1 from "../assets/images/Group 1926.png";
-import pic2 from "../assets/images/fash1.png";
-import pic3 from "../assets/images/brand1.png";
 
+const pic2 =
+  "https://i.pinimg.com/originals/24/11/60/241160dd32c426a6c1db0225673870cc.jpg";
+const pic3 =
+  "https://i.pinimg.com/originals/ee/91/9f/ee919f1e7bc49d0776c548b434cd81e0.jpg";
+
+const pic1 =
+  "https://i.pinimg.com/originals/93/ea/1e/93ea1eb7b76fbad7e47290251b75a328.jpg";
+
+const pic4 =
+  "https://i.pinimg.com/originals/70/46/1a/70461ac30d744db42d6763b155e84276.jpg";
 const images = [
   {
     src: pic2,
@@ -19,7 +26,12 @@ const images = [
   {
     src: pic3,
     width: 320,
-    height: 200,
+    height: 500,
+  },
+  {
+    src: pic4,
+    width: 220,
+    height: 320,
   },
   {
     src: pic1,
@@ -40,8 +52,8 @@ const images = [
   },
   {
     src: pic3,
-    width: 320,
-    height: 200,
+    width: 250,
+    height: 380,
   },
   {
     src: pic2,
@@ -61,10 +73,9 @@ const Gallary = () => (
     rowHeight={400}
     maxRows={4}
     enableImageSelection
-
-margin={5}    onSelect={(img) => alert(img)}
+    margin={20}
+    onSelect={(img) => alert(img)}
     images={images}
-    
   />
 );
 
