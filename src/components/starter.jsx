@@ -50,9 +50,9 @@ export default function Example() {
       <div className="gallary bg-white py-20 px-8 lg:px-12">
         <Gallary />
       </div>{" "}
-      <div class="skew-c"></div>
-      <div class="colour-block">
-        <h1>Responsive Skewed Page Dividers.</h1>
+      <div class="skew-c relative"></div>
+      <div class="colour-block relative">
+        <h1 className=" text-3xl font-semibold mt-5">Responsive Skewed Page Dividers.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
@@ -61,7 +61,7 @@ export default function Example() {
           consequat massa quis enim.
         </p>
       </div>
-      <div class="skew-cc"></div>
+      {/* <div class="skew-cc"></div> */}
       <div className="about_us">
       </div>
       <SimpleFooter />
