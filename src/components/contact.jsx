@@ -1,6 +1,6 @@
 import React from "react";
 
-const contact = () => {
+const ContactComponent = () => {
   return (
     <div>
       <section class="text-gray-600 body-font relative">
@@ -50,12 +50,12 @@ const contact = () => {
                 class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
+            <button class="text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              Send
             </button>
             <p class="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+              Let us know what you think about our service and how to improve to
+              serve you better
             </p>
           </div>
         </div>
@@ -64,4 +64,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default ContactComponent;

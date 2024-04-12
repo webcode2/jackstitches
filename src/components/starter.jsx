@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 import Header from "./Header";
-import Slide1, { Slide2 } from "./slide1";
+import Slide1, { Slide2, Slide3 } from "./slide1";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
@@ -12,16 +12,12 @@ import SimpleFooter from "./Footer";
 import ErrorPage from "./404";
 import Gallary from "./gallary";
 import MyGrid from "./gallaryWithSwipe";
+import AboutUs from "./about_us";
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="bg-white">
-      <Header
-        mobileMenuOpen={mobileMenuOpen}
-        setMobileMenuOpen={setMobileMenuOpen}
-      />
+      <Header />
       <Swiper
         // spaceBetween={50}
         slidesPerView={1}
@@ -45,14 +41,20 @@ export default function Example() {
         <SwiperSlide>
           <Slide2 />
         </SwiperSlide>
+        <SwiperSlide>
+          <Slide3 />
+        </SwiperSlide>
       </Swiper>
       {/* <Carousel autoSlide children={[<Slide1/>,<video src={"https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4"} style={{height:"100%"}} autoPlay muted loop className="my-0 bg-opacity-15  w-full" />,<img src="https://res.cloudinary.com/dozd0nyze/image/upload/v1666872896/cld-sample-3.jpg" alt="me"/>]} /> */}
       <div className="gallary bg-white py-20 px-8 lg:px-12">
         <Gallary />
       </div>{" "}
-      <div class="skew-c relative"></div>
+      <AboutUs />
+      <div class="skew-c relative "></div>
       <div class="colour-block relative">
-        <h1 className=" text-3xl font-semibold mt-5">Responsive Skewed Page Dividers.</h1>
+        <h1 className=" text-3xl font-semibold mt-5 pb-3">
+          Responsive Skewed Page Dividers.
+        </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
@@ -62,8 +64,7 @@ export default function Example() {
         </p>
       </div>
       {/* <div class="skew-cc"></div> */}
-      <div className="about_us">
-      </div>
+      <div className="about_us"></div>
       <SimpleFooter />
     </div>
   );

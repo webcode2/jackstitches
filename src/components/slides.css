@@ -3,32 +3,40 @@ div.slide1 {
   /* background-image: url("../assets/images/fash1.png"); */
   background-size: 400px;
   background-repeat: no-repeat;
+  
+  background-position: bottom right;
+}
+div.slide3 {
+    background-attachment: fixed;
+    background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg");
+    background-image: url("../assets/images/fash1.png");
+  /* background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg"); */
+  background-size: 400px;
+  background-repeat: no-repeat;
 
   background-position: bottom right;
 }
 
+.skew-c {
+  width: 100%;
+  height: 100px;
+  /* position:absolute; */
+  left: 0px;
+  background: linear-gradient(to left bottom, #ffffff 49%, #0f5b46 50%);
+}
 
-
-.skew-c{
-    width:100%;
-    height:100px;
-    /* position:absolute; */
-    left:0px;
-    background: linear-gradient(to left bottom, #FFFFFF 50%, #0f5b46 50%);
-  }
- 
-  .colour-block {
-    /* background:#823A9C; */
-    background:#0f5b46;
-    width:100%;
-    padding:10% 5% ;
-    color:#fff;
-  }
-  .skew-cc{
-    width:100%;
-    height:100px;
-    position:absolute;
-    left:0px;
-    background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
-  }
-  
+.colour-block {
+  /* background:#823A9C; */
+  background: #0f5b46;
+  width: 100%;
+  padding: 10% 5%;
+  color: #fff;
+}
+.skew-cc {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  background: linear-gradient(to right bottom, #823a9c 49%, #fff 50%),
+    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
