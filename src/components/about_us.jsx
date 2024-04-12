@@ -5,20 +5,20 @@ import "../components/slides.css";
 const AboutUs = () => {
   return (
     <section class="text-gray-600 relative grid lg:grid-cols-2 items-center px-5 body-font overflow-hidden pb-5 mb-20 bg-primary rounded-lg bg-opacity-15  container mx-auto">
-      <div className="absolute top-0 lg:bottom-0 h-32 w-full bg-gradient-to-t z-0  from-primary  to-green-700 "></div>
+      <div className="absolute top-0 lg:bottom-0 h-52 lg:h-32 w-full bg-gradient-to-t z-0  from-primary  to-green-700 "></div>
 
       <div className="image col-span-1 mx-auto lg:order-1 z-50">
-        <img alt="ceo" class=" lg:w-12/12 w-auto lg:max-h-[60vh]" src={pic1} />
+        <img alt="ceo" class=" lg:w-12/12 w-auto lg:max-h-[60vh] object-cover object-center" src={pic1} />
       </div>
       <div class=" w-full z-50 col-span-1 flex flex-col lg:pl-10 lg:py-6 px-5 lg:pt-32 lg:mt-0">
        
-        <div className="metatdata mt-5 lg:order-1 ">
-          <h2 class="text-sm title-font text-white tracking-widest">
+        <div className="metatdata mt-5 lg:order-1 text-center lg:text-start">
+          <h2 class="text-sm title-font text-primary  tracking-widest">
             Gift Jack
           </h2>
 
-          <div class="flex mb-4">
-            <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">
+          <div class="flex mb-4 justify-center lg:justify-start">
+            <h1 class="text-gray-900 text-3xl title-font font-medium mb-1 ">
               @jackstitches
             </h1>
 

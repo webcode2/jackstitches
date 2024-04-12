@@ -13,6 +13,7 @@ import ErrorPage from "./404";
 import Gallary from "./gallary";
 import MyGrid from "./gallaryWithSwipe";
 import AboutUs from "./about_us";
+import EmailSub from "./Email_Sub";
 
 export default function Example() {
   return (
@@ -52,16 +53,24 @@ export default function Example() {
       <AboutUs />
       <div class="skew-c relative "></div>
       <div class="colour-block relative">
-        <h1 className=" text-3xl font-semibold mt-5 pb-3">
-          Responsive Skewed Page Dividers.
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim.
-        </p>
+        <div className="lg:grid grid-cols-7 lg:gap-x-5   ">
+          <div className="first col-span-3">
+            {" "}
+            <h1 className=" text-3xl font-semibold mt-5 pb-3">
+              Responsive Skewed Page Dividers.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </p>
+          </div>
+          <div className="col-span-3 col-start-5">
+            <EmailSub />
+          </div>
+        </div>
       </div>
       {/* <div class="skew-cc"></div> */}
       <div className="about_us"></div>
