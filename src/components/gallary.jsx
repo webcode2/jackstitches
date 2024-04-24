@@ -1,5 +1,4 @@
-import React from "react";
-import { Gallery } from "react-grid-gallery";
+import React, { useEffect, useState } from "react";
 import Masonry from "react-responsive-masonry";
 
 const pic2 =
@@ -69,17 +68,28 @@ const images = [
   },
 ];
 
-const Gallary = () => (
-  <Masonry columnsCount={3} gutter="10px">
-    {images.map((image, i) => (
-      <img
-        key={i}
-        src={image.src}
-        alt={i}
-        style={{ width: "100%", display: "block" }}
-      />
-    ))}
-  </Masonry>
-);
+const Gallary = () => {
+  const [width, setWith] = useState(window.innerWidth);
+  function setwidth(width) {
+    setWith(width);
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", () => setwidth(window.innerWidth));
+  }, []);
+  console.log(width);
+  return (
+    <Masonry className="" columnsCount={width<=1025?2:3} gutter="10px">
+      {images.map((image, i) => (
+        <img
+          key={i}
+          src={image.src}
+          alt={i}
+          style={{ width: "100%", display: "block" }}
+        />
+      ))}
+    </Masonry>
+  );
+};
 
 export default Gallary;

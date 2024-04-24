@@ -22,7 +22,7 @@ export default function Example() {
       <Swiper
         // spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
+        // onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         pagination={{
           clickable: true,
@@ -47,7 +47,7 @@ export default function Example() {
         </SwiperSlide>
       </Swiper>
       {/* <Carousel autoSlide children={[<Slide1/>,<video src={"https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4"} style={{height:"100%"}} autoPlay muted loop className="my-0 bg-opacity-15  w-full" />,<img src="https://res.cloudinary.com/dozd0nyze/image/upload/v1666872896/cld-sample-3.jpg" alt="me"/>]} /> */}
-      <div className="gallary bg-white py-20 px-8 lg:px-12">
+      <div className="gallary bg-white py-20 mx-auto max-w-screen-lg">
         <Gallary />
       </div>{" "}
       <AboutUs />
