@@ -1,5 +1,6 @@
 import React from "react";
 import { Gallery } from "react-grid-gallery";
+import Masonry from "react-responsive-masonry";
 
 const pic2 =
   "https://i.pinimg.com/originals/24/11/60/241160dd32c426a6c1db0225673870cc.jpg";
@@ -69,14 +70,16 @@ const images = [
 ];
 
 const Gallary = () => (
-  <Gallery
-    rowHeight={400}
-    maxRows={4}
-    enableImageSelection
-    margin={20}
-    onSelect={(img) => alert(img)}
-    images={images}
-  />
+  <Masonry columnsCount={3} gutter="10px">
+    {images.map((image, i) => (
+      <img
+        key={i}
+        src={image.src}
+        alt={i}
+        style={{ width: "100%", display: "block" }}
+      />
+    ))}
+  </Masonry>
 );
 
 export default Gallary;
