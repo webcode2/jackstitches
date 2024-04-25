@@ -51,13 +51,13 @@ function Header({}) {
             <Link
               key={item.name}
               to={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-primary"
             >
               {item.name}
             </Link>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end text-primary">
           <div className="flex  flex-col space-y-1">
             <p className="font-ligt font-thin">
               No: 67 Ameria Str. off phase 2 Abuja.
