@@ -4,7 +4,6 @@ import "./slides.css";
 import MyGrid from "./gallaryWithSwipe";
 import Gallary from "./gallary";
 import { Link } from "react-router-dom";
-const fash1 = "../assets/images/fash1.png";
 
 const Slide1 = () => {
   return (
@@ -41,13 +40,13 @@ const Slide1 = () => {
           <div className="mt-20 flex items-center justify-center gap-x-6">
             <Link
               to=""
-              className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-xl focus-visible:outline-offset-2"
+              className="rounded-md bg-primary lg:px-10 px-5 py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
             >
               Give Us call
             </Link>
             <Link
               to={""}
-              className="text-xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
+              className="text-lg lg:text-2xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
             >
               Email us <span aria-hidden="true">→</span>
             </Link>
@@ -88,7 +87,7 @@ export function Slide3() {
             }}
           />
         </div>
-        <div className=" max-w-2xl   shadow rounded-lg   py-[10vh] lg:py-24 sm:py-48">
+        <div className="   shadow rounded-lg   py-[10vh] lg:py-24 sm:py-48">
           <div className="text-center">
             <h1 className="text-4xl font-bold  text-slate-200  font-lobster lg:tracking-wider sm:text-6xl">
               Dress with Confidence.
@@ -104,13 +103,13 @@ export function Slide3() {
             <div className="mt-20 flex items-center justify-center gap-x-6">
               <Link
                 to=""
-                className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-xl focus-visible:outline-offset-2"
+                className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
               >
                 Give Us call
               </Link>
               <Link
                 to={""}
-                className="text-xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
+                className="text-lg lg:text-2xl  font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
               >
                 Email us <span aria-hidden="true">→</span>
               </Link>
