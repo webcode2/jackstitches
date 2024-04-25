@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 import SimpleFooter from "./Footer";
 import ErrorPage from "./404";
 import Gallary from "./gallary";
-import MyGrid from "./gallaryWithSwipe";
 import AboutUs from "./about_us";
 import EmailSub from "./Email_Sub";
 
@@ -60,20 +59,20 @@ export default function Example() {
       <div class="skew-c relative "></div>
       <div class="colour-block relative">
         <div className="lg:grid grid-cols-7 lg:gap-x-5   ">
-          <div className="first col-span-3">
+          <div className="first col-span-3 bg-[#0000003d] px-4 py-8 rounded-2xl">
             {" "}
-            <h1 className=" text-3xl font-semibold mt-5 pb-3">
+            <h1 className=" text-3xl font-semibold mt-5 pb-3 text-center">
               Treat yourself to the perfect fit.{" "}
             </h1>
-            <p>
+            <p className="text-center">
               We specialize in creating garments that fit you like a dream. From
               taking care of minor alterations to complete garment
               transformations, our skilled tailors can breathe new life into
               your wardrobe.
+              <br />
+              <span className="text-6xl">...</span>
+              
             </p>
-          </div>
-          <div className="col-span-3 col-start-5">
-            <EmailSub />
           </div>
         </div>
       </div>
