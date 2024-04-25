@@ -59,7 +59,7 @@ export default function Example() {
       <div class="skew-c relative "></div>
       <div class="colour-block relative">
         <div className="lg:grid grid-cols-7 lg:gap-x-5   ">
-          <div className="first col-span-3 bg-[#0000003d] shadow shadow-gray-400 px-4 py-8 rounded-2xl">
+          <div className="first col-span-3 bg-[#0000003d] shadow shadow-primary s0 px-4 py-8 rounded-2xl">
             {" "}
             <h1 className=" text-3xl font-semibold mt-5 pb-3 text-center">
               Treat yourself to the perfect fit.{" "}
@@ -75,7 +75,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <hr className="" />
       {/* <div class="skew-cc"></div> */}
       <SimpleFooter />
     </div>
