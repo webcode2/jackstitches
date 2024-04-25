@@ -20,7 +20,7 @@ function Header({}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className=" top-0 z-50 bg-white bg-opacity-60  sticky ">
+    <header className=" top-0 z-[100] bg-white bg-opacity-95  sticky ">
       <nav
         className="flex items-center justify-between px-6 py-4 lg:py-1 lg:px-14"
         aria-label="Global"

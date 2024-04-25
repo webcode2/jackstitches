@@ -6,7 +6,7 @@ import Gallary from "./gallary";
 const fash1 = "../assets/images/fash1.png";
 
 const Slide1 = () => {
-  return (
+  return (  
     <div className="relative isolate w-full  xl:h-[90vh] px-8 px-lg:10 ">
       {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />

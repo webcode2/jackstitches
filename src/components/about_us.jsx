@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="image col-span-1 mx-auto lg:order-1 z-50">
         <img alt="ceo" class=" lg:w-12/12 w-auto lg:max-h-[60vh] object-cover object-center" src={pic1} />
       </div>
-      <div class=" w-full z-50 col-span-1 flex flex-col lg:pl-10 lg:py-6 px-5 lg:pt-32 lg:mt-0">
+      <div class=" w-full z-20 col-span-1 flex flex-col lg:py-6 px-5 lg:pt-32 lg:mt-0">
        
         <div className="metatdata mt-5 lg:order-1 text-center lg:text-start">
           <h2 class="text-sm title-font text-primary  tracking-widest">
@@ -67,8 +67,7 @@ const AboutUs = () => {
             My Story/passion behind brand. the rest is placeholder. Mixtape
             chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO
             fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday
-            carry +1 seitan poutine tumeric. Gastropub blue bottle austin
-            listicle pour-over, neutra jean shorts keytar banjo tattooed umami
+            carry +1 shorts keytar banjo tattooed umami
             cardigan.
           </p>
         </div>
