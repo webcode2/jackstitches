@@ -39,7 +39,8 @@ div.slide3 {
 
 .colour-block {
   /* background:#823A9C; */
-  background: #00337C;
+  /* background: #00337C; */
+  background: linear-gradient(180deg, #00337C , #13005A 80%);
   width: 100%;
   padding: 10% 5%;
   color: #fff;
