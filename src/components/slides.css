@@ -39,12 +39,12 @@ div.slide3 {
 }
 
 .colour-block {
+  background: linear-gradient(180deg,  #03C988 , #0f5b46 80%);
   /* background:#823A9C; */
-  background: #03C988;
+  /* background: #0f5b46; */
   width: 100%;
   padding: 10% 5%;
   color: #fff;
-  color: rgb(16, 16, 16);
 }
 .skew-cc {
   width: 100%;
