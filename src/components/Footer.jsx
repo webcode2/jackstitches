@@ -29,7 +29,7 @@ export default function SimpleFooter() {
     //     </li>
     //   </ul>
     // </footer>
-    <footer className="text-gray-600 body-font bg-primary">
+    <footer className="text-gray-600 body-font bg-[#0f5b46]">
       <div className="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col text-white">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
       

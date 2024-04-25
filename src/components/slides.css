@@ -17,10 +17,11 @@ div.slide2 {
   background-size: 400px;
   background-repeat: no-repeat;
 
-  background-position: center left;
+  background-position: top left;
 }
 
 div.slide3 {
+  background-attachment: ;
   background-image: url("../assets//images/scissors-1008907_1280.jpg");
   /* background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg"); */
   background-size: cover;
@@ -34,16 +35,16 @@ div.slide3 {
   height: 100px;
   /* position:absolute; */
   left: 0px;
-  background: linear-gradient(to left bottom, #ffffff 49%, #00337C 50%);
+  background: linear-gradient(to left bottom, #ffffff 49%, #03C988 50%);
 }
 
 .colour-block {
   /* background:#823A9C; */
-  /* background: #00337C; */
-  background: linear-gradient(180deg, #00337C , #13005A 80%);
+  background: #03C988;
   width: 100%;
   padding: 10% 5%;
   color: #fff;
+  color: rgb(16, 16, 16);
 }
 .skew-cc {
   width: 100%;
