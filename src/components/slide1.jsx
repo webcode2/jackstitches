@@ -8,7 +8,7 @@ const fash1 = "../assets/images/fash1.png";
 
 const Slide1 = () => {
   return (
-    <div className="relative isolate w-full slide1 xl:h-[90vh] min-h-[80] px-5   px-lg:10 ">
+    <div className="relative  flex justify-center items-center isolate w-full slide1 xl:h-[90vh] h-[80vh] md:h-auto  px-5   px-lg:10 ">
       {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
         </video> */}
@@ -41,13 +41,13 @@ const Slide1 = () => {
           <div className="mt-20 flex items-center justify-center gap-x-6">
             <Link
               to=""
-              className="rounded-md bg-primary px-3.5 lg:px-10 lg:py-5  py-2.5 font-light text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 text-2xl focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-xl focus-visible:outline-offset-2"
             >
               Give Us call
             </Link>
             <Link
               to={""}
-              className="text-2xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 transition-all duration-75 hover:bg-lime-50 text-white"
+              className="text-xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
             >
               Email us <span aria-hidden="true">→</span>
             </Link>
@@ -75,7 +75,7 @@ export default Slide1;
 export function Slide3() {
   return (
     <div className="slide3">
-      <div className="relative  bg-[black]  lg:bg-opacity-85 bg-opacity-75  flex justify-center items-center   isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
+      <div className="relative  bg-[black]  lg:bg-opacity-85 bg-opacity-75  flex justify-center items-center h-[80vh] md:h-auto   isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -90,28 +90,27 @@ export function Slide3() {
         </div>
         <div className=" max-w-2xl   shadow rounded-lg   py-[10vh] lg:py-24 sm:py-48">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-200  sm:text-6xl">
-              Get Stitched Up in Style.
+            <h1 className="text-4xl font-bold  text-slate-200  font-lobster lg:tracking-wider sm:text-6xl">
+              Dress with Confidence.
             </h1>
-            <h1 className="text-2xl  tracking-tight text-slate-200 lg:text-white sm:text-4xl py-6">
-              {company_profile.name} Coming Soon!{" "}
+            <h1 className="text-xl font-light  tracking-tight text-slate-200 lg:text-white sm:text-4xl py-2">
+              Coming Soon!{" "}
             </h1>
-            <p className="mt-6 text-lg leading-8 text-white lg:text-gray-300 lg:text-2xl tracking-wide  font-light">
-              We're thrilled to announce that {company_profile.name}, Abuja's
-              premier destination for bespoke tailoring and fashion, is
-              undergoing a website renovation!
+            <p className="mt-3 text-lg leading-8 text-white lg:text-gray-300 lg:text-2xl tracking-wide  font-light">
+              {company_profile.name}
+              bespoke tailoring and fashion, is undergoing a website renovation!
             </p>
 
             <div className="mt-20 flex items-center justify-center gap-x-6">
               <Link
                 to=""
-                className="rounded-md bg-primary px-3.5 lg:px-10 lg:py-5  py-2.5 font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-2xl focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-xl focus-visible:outline-offset-2"
               >
                 Give Us call
               </Link>
               <Link
                 to={""}
-                className="text-2xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 transition-all duration-75 hover:bg-lime-50 text-white"
+                className="text-xl font-light leading-6 hover:text-primary lg:px-10 lg:py-5 px-5  py-3 transition-all duration-75 hover:bg-lime-50 text-white"
               >
                 Email us <span aria-hidden="true">→</span>
               </Link>
@@ -137,7 +136,7 @@ export function Slide3() {
 }
 export function Slide2() {
   return (
-    <div className="relative bg-slate-50 isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
+    <div className="relative  flex justify-center items-center   bg-slate-50 isolate w-full xl:h-[90vh]  h-[80vh] md:h-auto  px-8 lg:px-12 ">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
