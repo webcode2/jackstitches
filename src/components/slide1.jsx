@@ -89,15 +89,14 @@ export function Slide3() {
         </div>
         <div className="   shadow rounded-lg   py-[10vh] lg:py-24 sm:py-48">
           <div className="text-center">
-            <h1 className="text-4xl font-bold  text-slate-200  font-lobster lg:tracking-wider sm:text-6xl">
+            <h1 className="text-4xl font-bold  text-slate-200  font-lobster lg:tracking-wide sm:text-6xl">
               Dress with Confidence.
             </h1>
             <h1 className="text-xl font-light  tracking-tight text-slate-200 lg:text-white sm:text-4xl py-2">
               Coming Soon!{" "}
             </h1>
             <p className="mt-3 text-lg leading-8 text-white lg:text-gray-300 lg:text-2xl tracking-wide  font-light">
-              {company_profile.name}
-              bespoke tailoring and fashion, is undergoing a website renovation!
+              {company_profile.name} bespoke tailoring and fashion, is undergoing a website renovation!
             </p>
 
             <div className="mt-20 flex items-center justify-center gap-x-6">
