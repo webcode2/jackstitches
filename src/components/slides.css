@@ -34,12 +34,12 @@ div.slide3 {
   height: 100px;
   /* position:absolute; */
   left: 0px;
-  background: linear-gradient(to left bottom, #ffffff 49%, #0f5b46 50%);
+  background: linear-gradient(to left bottom, #ffffff 49%, #00337C 50%);
 }
 
 .colour-block {
   /* background:#823A9C; */
-  background: #0f5b46;
+  background: #00337C;
   width: 100%;
   padding: 10% 5%;
   color: #fff;

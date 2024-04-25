@@ -27,4 +27,7 @@ module.exports = {
   },
   plugins: [],
 }
-
+// #13005A=promary
+// #00337C =thickblue
+// #1C82AD=lightblue
+// #03C988=green
