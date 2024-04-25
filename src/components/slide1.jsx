@@ -6,8 +6,8 @@ import Gallary from "./gallary";
 const fash1 = "../assets/images/fash1.png";
 
 const Slide1 = () => {
-  return (  
-    <div className="relative isolate w-full  xl:h-[90vh] px-8 px-lg:10 ">
+  return (
+    <div className="relative isolate w-full slide1 xl:h-[90vh] min-h-[80] px-5   px-lg:10 ">
       {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
         </video> */}
@@ -25,13 +25,12 @@ const Slide1 = () => {
       </div>
       <div className="mx-auto max-w-2xl   py-[10vh] lg:py-32 sm:py-48 ">
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            {company_profile.name}: Coming Soon !
+          <h1 className="text-5xl font-bold tracking-tight text-[#ffffff] sm:text-6xl">
+            {company_profile.name} : &nbsp; Coming Soon !
           </h1>
-          <p className="mt-6 text-2xl lg:text-lg  leading-8 text-gray-600">
-            We're thrilled to announce that {company_profile.name}, Abuja's
-            premier destination for bespoke tailoring and fashion, is undergoing
-            a website renovation!
+          <p className="mt-6 text-xl lg:text-2xl font-light leading-8 text-gray-200">
+            We don't just alter clothes, we create a customized fit that
+            flatters your unique style.
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -152,9 +151,7 @@ export function Slide2() {
             x Treat yourself to the perfect fit.
             <br /> You deserve it! Schedule a consultation.!
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-           
-          </p>
+          <p className="mt-6 text-lg leading-8 text-gray-600"></p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

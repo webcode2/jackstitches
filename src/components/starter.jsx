@@ -19,34 +19,36 @@ export default function Example() {
   return (
     <div className="bg-white">
       <Header />
-      <div className="slide1">
-        <Swiper
-          // spaceBetween={50}
-          slidesPerView={1}
-          // onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
-          pagination={{
-            clickable: true,
-          }}
-          // navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          loop={true}
-          autoplay={{
-            delay: 3500,
-            disableOnInteraction: true,
-          }}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <Slide1 />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Slide2 />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Slide3 />
-          </SwiperSlide>
-        </Swiper>
+      <div className="slide">
+        <div className="slide_overlay">
+          <Swiper
+            // spaceBetween={50}
+            slidesPerView={1}
+            // onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+            pagination={{
+              clickable: true,
+            }}
+            // navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            loop={true}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: true,
+            }}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <Slide1 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide2 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide3 />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
       {/* <Carousel autoSlide children={[<Slide1/>,<video src={"https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4"} style={{height:"100%"}} autoPlay muted loop className="my-0 bg-opacity-15  w-full" />,<img src="https://res.cloudinary.com/dozd0nyze/image/upload/v1666872896/cld-sample-3.jpg" alt="me"/>]} /> */}
       <div className="gallary bg-white py-20 mx-auto max-w-screen-lg">
@@ -64,7 +66,10 @@ export default function Example() {
               Treat yourself to the perfect fit.{" "}
             </h1>
             <p>
-            We specialize in creating garments that fit you like a dream. From taking care of minor alterations to complete garment transformations, our skilled tailors can breathe new life into your wardrobe.
+              We specialize in creating garments that fit you like a dream. From
+              taking care of minor alterations to complete garment
+              transformations, our skilled tailors can breathe new life into
+              your wardrobe.
             </p>
           </div>
           <div className="col-span-3 col-start-5">

@@ -1,15 +1,25 @@
-div.slide1 {
+div.slide {
   /* background-attachment: fixd; */
-  background-image: url("../assets/images/bg1.png");
+  background-image: url("../assets/images/sewing-machine-8106959_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
-div.slide {
-    background-attachment: fixed;
-    background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg");
-    background-image: url("../assets/images/fash1.png");
+div.slide .slide_overlay {
+  /* background: linear-gradient(
+      217deg,
+      rgba(4, 17, 10, 0.516),
+      rgba(255, 0, 0, 0.071) 70.71%
+    ),
+    linear-gradient(127deg, #0f5b4563, rgba(0, 255, 0, 0.068) 70.71%),
+    linear-gradient(336deg, rgba(13, 119, 195, 0.281), rgba(4, 75, 89, 0.346) 70.71%); */
+    background-color: #000000a1;
+}
+
+div.slide2 {
+  background-attachment: fixed;
+  background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg");
+  background-image: url("../assets/images/fash1.png");
   /* background-image: url("https://i.pinimg.com/originals/bb/0b/7e/bb0b7e1aa708044c59cf01f2c177b639.jpg"); */
   background-size: 400px;
   background-repeat: no-repeat;
