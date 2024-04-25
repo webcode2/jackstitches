@@ -40,15 +40,9 @@ const images = [
     caption: "After Rain (Jeshu John - designerspics.com)",
   },
   {
-    src: pic2,
+    src: "https://i.pinimg.com/236x/79/8a/f5/798af5f496cc6b03eccdc0ad8b740086.jpg",
     width: 320,
     height: 412,
-
-    tags: [
-      { value: "Fation", title: "Unique" },
-      //   { value: "People", title: "People" },
-    ],
-    alt: "Boats (Jeshu John - designerspics.com)",
   },
   {
     src: pic3,
@@ -79,7 +73,10 @@ const Gallary = () => {
   }, []);
   console.log(width);
   return (
-    <Masonry className="" columnsCount={width<=1025?2:3} gutter="10px">
+    <Masonry className="px-1" 
+    columnsCount={width <= 1025 ? 2 : 3}
+    // columnsCountBreakPoints={{400: 1, 750: 2, 1020: 3}}
+    gutter="10px">
       {images.map((image, i) => (
         <img
           key={i}

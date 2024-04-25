@@ -7,7 +7,7 @@ const fash1 = "../assets/images/fash1.png";
 
 const Slide1 = () => {
   return (
-    <div className="relative isolate w-full slide1 xl:h-[90vh] px-8 px-lg:10 ">
+    <div className="relative isolate w-full  xl:h-[90vh] px-8 px-lg:10 ">
       {/* <video autoPlay loop  muted id="" style={{height:"100vh",}} className="w-full">
             <source className="w-full m-0 p-0 " src="https://res.cloudinary.com/dozd0nyze/video/upload/v1712566964/jackstitches/854187-hd_1920_1080_25fps_ohisia.mp4" type="video/mp4" />
         </video> */}
@@ -146,15 +146,14 @@ export function Slide2() {
       <div className="mx-auto max-w-2xl   py-[10vh] lg:py-32 sm:py-48">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Get Stitched Up in Style.
-          </h1>
-          <h1 className="text-2xl  tracking-tight text-gray-900 sm:text-4xl py-6">
             {company_profile.name} Coming Soon!{" "}
           </h1>
+          <h1 className="text-2xl  tracking-tight text-gray-900 sm:text-4xl py-6">
+            x Treat yourself to the perfect fit.
+            <br /> You deserve it! Schedule a consultation.!
+          </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We're thrilled to announce that {company_profile.name}, Abuja's
-            premier destination for bespoke tailoring and fashion, is undergoing
-            a website renovation!
+           
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">

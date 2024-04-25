@@ -1,10 +1,10 @@
 div.slide1 {
-  background-attachment: fixed;
-  /* background-image: url("../assets/images/fash1.png"); */
-  background-size: 400px;
+  /* background-attachment: fixd; */
+  background-image: url("../assets/images/pexels-solliefoto-298863.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   
-  background-position: bottom right;
 }
 div.slide {
     background-attachment: fixed;
