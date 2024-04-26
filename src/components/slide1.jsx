@@ -89,7 +89,7 @@ export function Slide3() {
         </div>
         <div className="   shadow rounded-lg   py-[10vh] lg:py-24 sm:py-48">
           <div className="text-center">
-            <h1 className="text-4xl font-bold  text-slate-200  font-lobster lg:tracking-wide sm:text-6xl">
+            <h1 className="text-3xl font-bold  text-slate-200  font-lobster lg:tracking-wide sm:text-6xl">
               Dress with Confidence.
             </h1>
             <h1 className="text-xl font-light  tracking-tight text-slate-200 lg:text-white sm:text-4xl py-2">

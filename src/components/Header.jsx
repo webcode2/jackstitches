@@ -9,11 +9,11 @@ import {
 import { Link } from "react-router-dom";
 
 const navigation = [
+  { name: "home", href: "/" },
   { name: "Gallary", href: "/gallery" },
   { name: "Fibrics", href: "/fibric" },
-  { name: "Style Guide", href: "style-guide" },
-
-  { name: "Contact", href: "#contact" },
+  { name: "Style Guide", href: "/style-guide" },
+  { name: "Contact", href: "/contact" },
 ];
 
 function Header({}) {
@@ -26,7 +26,7 @@ function Header({}) {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">{company_profile.name}</span>
             {/* <img
                 className="h-8 w-auto"

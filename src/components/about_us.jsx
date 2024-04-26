@@ -7,21 +7,21 @@ const AboutUs = () => {
     <section class="text-gray-600 relative ceo_bg  body-font overflow-hidden mb-16   bg-primary bg-opacity-15 w-full">
       <div className="container mx-auto md:grid grid-cols-2">
         <div className=" flex flex-col">
-          <div className="image col-span-1 bg-red-400  mt-5  z-50">
+          <div className="image col-span-1 bg-red-400   z-50">
             <img
               alt="ceo"
               class=" lg:w-12/12 w-auto lg:max-h-[65vh] object-cover object-center"
               src={pic1}
             />
           </div>
-          <div class=" w-full z-20 col-span-1  pb-10  flex flex-col ">
+          <div class=" w-full z-20 col-span-1  pb-10  flex flex-col px-5">
             <div className="metatdata mt-3   lg:text-start">
-              <h2 class="text-sm title-font text-primary  tracking-widest">
+              <h2 class="text-sm title-font text-slate-300  tracking-widest">
                 Gift Jack
               </h2>
 
               <div class="flex mb-4 lg:justify-start">
-                <h1 class="text-gray-900 text-3xl title-font font-medium  ">
+                <h1 class="text-gray-400 text-3xl title-font  font-medium  ">
                   @jackstitches
                 </h1>
 
@@ -65,7 +65,7 @@ const AboutUs = () => {
                 </span>
               </div>
             </div>
-            <div className="text-xl ">
+            <div className="text-lg ">
               <p class="leading-relaxed lg:mt-5 font-light font-sans ">
                 My Story/passion behind brand. the rest is placeholder. Mixtape
                 chillwave tumeric sriracha taximy chia microdosing tilde DIY.

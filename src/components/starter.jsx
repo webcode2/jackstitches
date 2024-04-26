@@ -25,7 +25,7 @@ export default function Example() {
           <Swiper
             // spaceBetween={50}
             slidesPerView={1}
-            // onSlideChange={() => console.log("slide change")}
+            // onSlideChange={(e) => console.log(e)}
             onSwiper={(swiper) => console.log(swiper)}
             pagination={{
               clickable: true,
@@ -34,12 +34,12 @@ export default function Example() {
             modules={[Autoplay, Pagination, Navigation]}
             loop={true}
             autoplay={{
-              delay: 3500,
+              delay: 5500,
               disableOnInteraction: true,
             }}
             className="mySwiper"
           >
-            <SwiperSlide>
+            <SwiperSlide onFocus={(e)=>console.log(e)}>
               <Slide1 />
             </SwiperSlide>
             <SwiperSlide>

@@ -6,18 +6,23 @@ const ContactComponent = () => {
       <section class="text-gray-600 body-font relative">
         <div class="absolute inset-0 bg-gray-300">
           <iframe
+          title="jackstitches"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7951.762961552896!2d7.037292627936935!3d4.790377304447424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cd86ab13e777%3A0xc7ad6082a5b32acc!2sDiamond%20Valley%20Estate!5e0!3m2!1sen!2sng!4v1714093036756!5m2!1sen!2sng"
             width="100%"
             height="100%"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
-            title="map"
-            scrolling="no"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
             style={{
-              filter: " grayscale(1)",
+              filter: "grayscale(1)",
               contrast: "(1.2)",
               opacity: "(0.4)",
+              accentColor:"red",
+              backgroundColor:"red",
+              
             }}
           ></iframe>
         </div>
