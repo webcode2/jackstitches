@@ -35,11 +35,11 @@ div.slide3 {
   height: 100px;
   /* position:absolute; */
   left: 0px;
-  background: linear-gradient(to left bottom, #ffffff 49%, #03C988 50%);
+  background: linear-gradient(to left bottom, #ffffff 49%, #068D62 50%);
 }
 
 .colour-block {
-  background: linear-gradient(180deg,  #03C988 , #0f5b46 80%);
+  background: linear-gradient(180deg,  #068D62 , #0f5b46 80%);
   /* background:#823A9C; */
   /* background: #0f5b46; */
   width: 100%;
@@ -53,4 +53,8 @@ div.slide3 {
   left: 0px;
   background: linear-gradient(to right bottom, #823a9c 49%, #fff 50%),
     linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+.ceo_bg{
+  background-image: url();
+  background: #000;
 }

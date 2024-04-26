@@ -13,6 +13,8 @@ import ErrorPage from "./404";
 import Gallary from "./gallary";
 import AboutUs from "./about_us";
 import EmailSub from "./Email_Sub";
+import VideoBackground from "./videobg";
+
 
 export default function Example() {
   return (
@@ -41,7 +43,7 @@ export default function Example() {
               <Slide1 />
             </SwiperSlide>
             <SwiperSlide>
-              <Slide2 />
+              <VideoBackground videoSrc={require("../assets/images/video.mp4")}  />
             </SwiperSlide>
             <SwiperSlide>
               <Slide3 />
@@ -53,13 +55,13 @@ export default function Example() {
       <div className="gallary bg-white py-20 mx-auto max-w-screen-lg">
         <Gallary />
       </div>
-      <div className="gallary bg-white py-20 lg:mx-auto max-w-screen-lg mx-4 ">
+      <div className="about_ceo w-full ">
         <AboutUs />
       </div>
       <div class="skew-c relative "></div>
       <div class="colour-block relative">
         <div className="lg:grid grid-cols-7 lg:gap-x-5   ">
-          <div className="first col-span-3 bg-[#0000001b] shadow-md shadow-primary mb-16 px-4 py-8 rounded-2xl">
+          <div className="first col-span-3 bg-[#0000001b] shadow-md shadow-primary mb-16 lg:mb-0 px-4 py-8 rounded-2xl">
             {" "}
             <h1 className=" text-3xl font-semibold mt-5 pb-3 text-center">
               Treat yourself to the perfect fit.{" "}
