@@ -35,15 +35,15 @@ div.slide3 {
   height: 100px;
   /* position:absolute; */
   left: 0px;
-  background: linear-gradient(to left bottom, #ffffff 49%, #068D62 50%);
+  /* background: linear-gradient(to left bottom, #ffffff 49%, #068D62 50%); */
 }
 
 .colour-block {
-  background: linear-gradient(180deg,  #068D62 , #0f5b46 80%);
+  /* background: linear-gradient(180deg,  #068D62 , #0f5b46 80%); */
   /* background:#823A9C; */
   /* background: #0f5b46; */
   width: 100%;
-  padding: 10% 5%;
+  /* padding: 10% 5%; */
   color: #fff;
 }
 .skew-cc {

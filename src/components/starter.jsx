@@ -14,7 +14,7 @@ import Gallary from "./gallary";
 import AboutUs from "./about_us";
 import EmailSub from "./Email_Sub";
 import VideoBackground from "./videobg";
-
+import Testimonials from "./testimonials";
 
 export default function Example() {
   return (
@@ -39,11 +39,13 @@ export default function Example() {
             }}
             className="mySwiper"
           >
-            <SwiperSlide onFocus={(e)=>console.log(e)}>
+            <SwiperSlide onFocus={(e) => console.log(e)}>
               <Slide1 />
             </SwiperSlide>
             <SwiperSlide>
-              <VideoBackground videoSrc={require("../assets/images/video.mp4")}  />
+              <VideoBackground
+                videoSrc={require("../assets/images/video.mp4")}
+              />
             </SwiperSlide>
             <SwiperSlide>
               <Slide3 />
@@ -55,13 +57,16 @@ export default function Example() {
       <div className="gallary bg-white py-20 mx-auto max-w-screen-lg">
         <Gallary />
       </div>
-      <div className="about_ceo w-full ">
+      <div className="about_ceo w-full px-5 lg:px-0  bg-[#edeff0]  ">
         <AboutUs />
       </div>
-      <div class="skew-c relative "></div>
+      <div className="testimonials">
+        <Testimonials />
+      </div>
+      {/* <div class="skew-c relative "></div>
       <div class="colour-block relative">
         <div className="lg:grid grid-cols-7 lg:gap-x-5   ">
-          <div className="first col-span-3 bg-[#0000001b] shadow-md shadow-primary mb-16 lg:mb-0 px-4 py-8 rounded-2xl">
+          <div className="first col-span-3 bg-slate-400 mx-10  shadow-md shadow-primary mb-16 lg:mb-0 px-4 rounded-2xl">
             {" "}
             <h1 className=" text-3xl font-semibold mt-5 pb-3 text-center">
               Treat yourself to the perfect fit.{" "}
@@ -76,7 +81,7 @@ export default function Example() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div class="skew-cc"></div> */}
       <SimpleFooter />
     </div>

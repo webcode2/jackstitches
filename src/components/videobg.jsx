@@ -45,10 +45,10 @@ const VideoBackground = ({ videoSrc, text = "More to Come" }) => {
           </div>
           <div className="mx-auto max-w-2xl   py-[10vh] lg:py-32 sm:py-48">
             <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-6xl">
                 {company_profile.name} Coming Soon!{" "}
               </h1>
-              <h1 className="text-2xl  tracking-tight text-gray-900 sm:text-4xl py-6">
+              <h1 className="text-2xl  tracking-tight text-gray-200 sm:text-4xl py-6">
                 Treat yourself to the perfect fit.
                 <br /> You deserve it! Schedule a consultation.!
               </h1>

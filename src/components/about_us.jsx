@@ -4,7 +4,7 @@ import "../components/slides.css";
 
 const AboutUs = () => {
   return (
-    <section class="text-gray-600 relative ceo_bg  body-font overflow-hidden mb-16   bg-primary bg-opacity-15 w-full">
+    <section class="text-gray-600 relative ceo_bg  body-font overflow-hidden mb-16  lg:rounded-none rounded-md bg-primary bg-opacity-15 w-full">
       <div className="container mx-auto md:grid grid-cols-2">
         <div className=" flex flex-col">
           <div className="image col-span-1 bg-red-400   z-50">

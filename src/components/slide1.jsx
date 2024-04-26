@@ -40,7 +40,7 @@ const Slide1 = () => {
           <div className="mt-20 flex items-center justify-center gap-x-6">
             <Link
               to=""
-              className="rounded-md bg-primary lg:px-10 px-5 py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
+              className="rounded-md bg-[#03C988] lg:px-10 px-5 py-3   font-light text-white shadow-sm hover:bg-[#03C988] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
             >
               Give Us call
             </Link>
@@ -74,7 +74,7 @@ export default Slide1;
 export function Slide3() {
   return (
     <div className="slide3">
-      <div className="relative  bg-[black]  lg:bg-opacity-85 bg-opacity-75  flex justify-center items-center h-[80vh] md:h-auto   isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
+      <div className="relative  bg-[black]  lg:bg-opacity-25 bg-opacity-25  flex justify-center items-center h-[80vh] md:h-auto   isolate w-full xl:h-[90vh] px-8 lg:px-12 ">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -103,7 +103,7 @@ export function Slide3() {
             <div className="mt-20 flex items-center justify-center gap-x-6">
               <Link
                 to=""
-                className="rounded-md bg-primary lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#1a1237] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
+                className="rounded-md bg-[#03C988] lg:px-10 px-5  py-3   font-light text-white shadow-sm hover:bg-[#03C988] focus-visible:outline focus-visible:outline-2 text-lg lg:text-2xl focus-visible:outline-offset-2"
               >
                 Give Us call
               </Link>
@@ -133,6 +133,4 @@ export function Slide3() {
     </div>
   );
 }
-export function Slide2() {
-  return "";
-}
+
