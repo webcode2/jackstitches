@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const navigation = [
   { name: "home", href: "/" },
   { name: "Gallary", href: "/gallery" },
-  { name: "Fibrics", href: "/fibric" },
+  { name: "Fibrics", href: "/fibrics" },
   { name: "Style Guide", href: "/style-guide" },
   { name: "Contact", href: "/contact" },
 ];
@@ -104,7 +104,7 @@ function Header({}) {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-primary hover:bg-gray-50"
                   >
                     {item.name}
                   </Link>

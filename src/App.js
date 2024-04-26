@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 export const router = createBrowserRouter([
   {    path: "/",    element: <Example/>,  },
-  {    path: "/fibre",    element: <Example/>,  },
+  {    path: "/fibrics",    element: <Example/>,  },
   {    path: "/gallery",    element: <Example/>,  },
   {    path: "/contact",    element: <Contact/>,  },
   {    path: "*",    element: <ErrorPage/>,  },
